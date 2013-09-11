@@ -1,7 +1,7 @@
 <?php
 	
-	const SHENASA_ADDR = 'http://accounts.shenasaservice.me/';
-	const SHENASA_API = 'http://api.shenasaservice.me/';
+	const SHENASA_ADDR = 'https://accounts.shenasaservice.com/';
+	const SHENASA_API = 'https://api.shenasaservice.com/';
 		
 	class ShenasaOAuth{
 		

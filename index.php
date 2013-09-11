@@ -1,8 +1,8 @@
 <?php
 	session_start();
 	include('ShenasaOAuth.php');
-	$client_id = '396307863090.apps.atlasid.local';
-	$app_secret= '$2a$24$a7CexNfN.yVZR1pMJN/Bsc';
+	$client_id = '';
+	$app_secret= '';
 ?>
 
 <?php
