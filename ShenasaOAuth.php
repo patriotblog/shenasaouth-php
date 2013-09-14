@@ -70,6 +70,10 @@
 			$data  = $this->get_url($uri);
 			if($data){
 				$this->user_info = json_decode($data);
+				if(isset($this->user_info->error)){
+					header('Location: '.$this->generateLoginUri());
+					//throw new Exception('access_token expired');
+				}
 			}
 			return $this->user_info;
 		}
